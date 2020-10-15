@@ -1,6 +1,6 @@
 package com.bridgelabz.hashmap;
 
-class MyMapNode<K, V> implements INode<K, V> {
+public class MyMapNode<K, V> implements INode<K, V> {
 	K key;
 	V value;
 	MyMapNode<K, V> next;
